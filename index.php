@@ -17,10 +17,16 @@ require_once "inc/config.php";
 <body>
     <div class="uk-container uk-section">
         <?php
-        echo "Hello World. Today is ";
+        echo "Hello World. Today is: ";
         echo Date('Y m d');
         ?>
+        <p>
+            <a href="/login.php">Login</a>
+            <a href="/register.php">Register</a>
+        </p>
     </div>
+
+
     <?php require_once 'inc/footer.php'; ?>
 </body>
 
