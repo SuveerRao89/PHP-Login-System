@@ -17,6 +17,7 @@ require_once "inc/config.php";
 <body>
     <div class="uk-container uk-section">
         <div class="uk-grid uk-child-width-1-3@m uk-child-width-1-1" uk-grid>
+            <!-- Register form starts here -->
             <form class="uk-form-stacked js-register">
                 <h2>Register</h2>
 

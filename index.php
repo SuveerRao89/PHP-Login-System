@@ -1,4 +1,5 @@
 <?php
+//setting const __CONFIG__
 define('__CONFIG__', true);
 require_once "inc/config.php";
 ?>
@@ -10,6 +11,7 @@ require_once "inc/config.php";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UIKit CSS CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.24/dist/css/uikit.min.css" />
     <title>Document</title>
 </head>
@@ -21,12 +23,12 @@ require_once "inc/config.php";
         echo Date('Y m d');
         ?>
         <p>
-            <a href="/login.php">Login</a>
-            <a href="/register.php">Register</a>
+            <a href="./login.php">Login</a>
+            <a href="./register.php">Register</a>
         </p>
     </div>
 
-
+    <!-- include footer file -->
     <?php require_once 'inc/footer.php'; ?>
 </body>
 
